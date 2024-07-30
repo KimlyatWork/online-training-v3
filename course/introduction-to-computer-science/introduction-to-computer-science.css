@@ -1,0 +1,288 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Google Fonts - andika */
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+
+/* top title */
+
+.top-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.top-title h2{
+  color: #333333;
+  font-size: 24px;
+
+}
+
+/* Header and Footer CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  header {
+    background-color: #1c6920;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  header img{
+   width: 600px;
+  }
+
+  /* Media query for different header screen sizes */
+  @media (max-width: 1200px) {
+    header img {
+        max-width: 600px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    header img {
+        max-width: 500px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    header img {
+        max-width: 400px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    header img {
+        max-width: 300px;
+    }
+  }
+
+  
+  footer {
+    background-color: #1c6920;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .footer {
+    margin-top: auto;
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .footer p{
+    margin: auto;
+  }
+  
+  /* Media query example for footer with different screen sizes */
+  @media (max-width: 1200px) {
+    .footer p {
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .footer p {
+        font-size: 10px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer p {
+        font-size: 8px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .footer p {
+        font-size: 6px;
+    }
+  }
+    
+    @media (max-width: 768px) {
+      .header-content,
+      .footer-content {
+          padding: 0 20px;
+      }
+    }
+
+  /* Layout CSS */
+
+  .container {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .content {
+    font-family: 'adika', sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 500px;
+    /*margin: 10px;*/
+    /*background-image: url("tv-screen.png");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 40px;
+    color: rgb(34, 34, 34);
+  }
+
+  #thank-you-page {
+    text-align: center;
+  }
+
+  /* Media query for different content screen sizes */
+  @media (max-width: 1200px) {
+    .content {
+        max-width: 1000px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .content {
+        max-width: 800px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .content {
+        max-width: 600px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .content {
+        max-width: 400px; 
+    }
+  }
+
+  /*Button and media querry*/
+
+ .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+ }
+
+ @media (max-width: 1200px) {
+  .button {
+      margin-bottom: 30px;
+  }
+  }
+
+  @media (max-width: 800px) {
+    .button {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .button {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .button {
+      margin-bottom: 30px;
+    }
+  }
+
+ /* BOOTSTRAP CSS */
+
+ .btn-success {
+    background-color: #008026 !important;
+    border: 1px solid #008026 !important;
+    padding: 8px !important;
+ }
+
+ .btn-success:hover {
+  background-color: #00a71c !important;
+  border: 1px solid #00a71c !important;
+  /*color: #0f9903 !important;*/
+}
+ 
+ .btn-danger {
+  background-color: #008026 !important;
+  border: 1px solid #008026 !important;
+  padding: 8px !important;
+}
+
+.btn-danger:hover {
+  background-color: #00a71c !important;
+  border: 1px solid #00a71c !important;
+  /*color: #f52c2c !important;*/
+}
+
+ /* Course CSS */
+ .content div{
+  display: none;
+ }
+
+/*Quiz Page Iframe and media querry*/
+#quiz-page {
+  background-color: aqua;
+  width: auto;
+  height: auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe {
+  width: 1000px;
+  height: 450px;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .iframe {
+      max-width: 8000px;
+      max-height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .iframe {
+      max-width: 800px;
+      max-height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .iframe {
+      max-width: 600px;
+      max-height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .iframe {
+      max-width: 400px;
+      max-height: auto;
+  }
+}
+
+
+ 
