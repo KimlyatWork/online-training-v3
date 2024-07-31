@@ -19,12 +19,34 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-header img{
+.logo{
   width: 600px;
- }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+      min-width: 600px;
+    }
+  }
+
+@media (min-width: 412px) {
+  .logo {
+      max-width: 400px;
+    }
+  }
+
+@media (min-width: 412px) {
+  header p {
+        font-size: 13px;
+    }
+  }
+
 
 footer {
   background-color: #1c6920;
@@ -46,10 +68,19 @@ footer {
   justify-content: center;
 }
 
-@media (max-width: 768px) {
-  .header-content,
-  .footer-content {
-      padding: 0 20px;
+.footer p{
+  margin: auto;
+}
+
+@media (min-width: 412px) {
+  .footer p {
+      font-size: 10px;
+  }
+}
+
+@media (min-width: 412px) {
+  .top-title h2 {
+      font-size: 17px;
   }
 }
 
@@ -187,4 +218,3 @@ main{
     display: none;
   }
 }
-

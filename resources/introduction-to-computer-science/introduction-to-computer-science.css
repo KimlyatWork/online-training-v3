@@ -41,6 +41,12 @@
         width: 600px;
   }
 
+  @media (min-width: 1200px) {
+    .logo {
+        min-width: 600px;
+    }
+  }
+
   @media (min-width: 412px) {
     .logo {
         max-width: 500px;
