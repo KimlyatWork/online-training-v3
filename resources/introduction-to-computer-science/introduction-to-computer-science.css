@@ -37,19 +37,16 @@
     font-size: 14px;
   }
 
-  header img{
-   width: 600px;
+  .logo{
+        width: 600px;
   }
 
-  /* Media query for different header screen sizes */
-
-  @media (max-width: 412px) {
-    header img {
-        max-width: 350px;
+  @media (min-width: 412px) {
+    .logo {
+        max-width: 500px;
     }
   }
 
-  
   footer {
     background-color: #1c6920;
     color: #fff;
@@ -78,13 +75,11 @@
   
   /* Media query example for footer with different screen sizes */
 
-  @media (max-width: 412px) {
+  @media (min-width: 412px) {
     .footer p {
-        font-size: 9px;
+        font-size: 10px;
     }
   }
-    
-    
 
   /* Layout CSS */
 
@@ -102,7 +97,7 @@
   .content {
     font-family: 'adika', sans-serif;
     background-color: rgb(255, 255, 255);
-    width: 1000px;
+    width: auto;
     height: 500px;
     /*margin: 10px;*/
     /*background-image: url("tv-screen.png");*/
@@ -120,10 +115,9 @@
 
   @media (max-width: 412px) {
     .content {
-        max-width: 350px;
+        max-width: 200px;  
     }
   }
-  
   
 
   /*Button and media querry*/
@@ -138,14 +132,6 @@
     float: none;
     clear: both;
  }
-
-
-  @media (max-width: 412px) {
-    .button {
-      margin-top: 80px;
-      margin-bottom: 30px;
-    }
-  }
 
  /* BOOTSTRAP CSS */
 
@@ -193,12 +179,9 @@
   display: block;
 }
 
-
-
-@media (max-width: 412px) {
+@media (min-width: 412px) {
   .iframe {
-      max-width: 400px;
-      max-height: auto;
+      max-width: 420px;
   }
 }
 
