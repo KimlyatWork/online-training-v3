@@ -26,32 +26,6 @@ header img{
   width: 600px;
  }
 
- /* Media query for different header screen sizes */
- @media (max-width: 1200px) {
-   header img {
-       max-width: 500px;
-   }
- }
-
- @media (max-width: 800px) {
-   header img {
-       max-width: 400px;
-   }
- }
-
- @media (max-width: 600px) {
-   header img {
-       max-width: 300px;
-   }
- }
-
- @media (max-width: 400px) {
-   header img {
-       max-width: 200px;
-   }
- }
-
-
 footer {
   background-color: #1c6920;
   color: #fff;

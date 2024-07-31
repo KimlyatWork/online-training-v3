@@ -10,6 +10,8 @@
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  float: none;
+  clear: both;
 }
 
 .top-title h2{
@@ -40,27 +42,10 @@
   }
 
   /* Media query for different header screen sizes */
-  @media (max-width: 1200px) {
-    header img {
-        max-width: 600px;
-    }
-  }
 
-  @media (max-width: 800px) {
+  @media (max-width: 412px) {
     header img {
-        max-width: 500px;
-    }
-  }
-
-  @media (max-width: 600px) {
-    header img {
-        max-width: 400px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    header img {
-        max-width: 300px;
+        max-width: 350px;
     }
   }
 
@@ -77,6 +62,8 @@
     min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
+    float: none;
+    clear: both;
   }
   
   .footer {
@@ -90,36 +77,14 @@
   }
   
   /* Media query example for footer with different screen sizes */
-  @media (max-width: 1200px) {
-    .footer p {
-        font-size: 12px;
-    }
-  }
 
-  @media (max-width: 800px) {
+  @media (max-width: 412px) {
     .footer p {
-        font-size: 10px;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .footer p {
-        font-size: 8px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .footer p {
-        font-size: 6px;
+        font-size: 9px;
     }
   }
     
-    @media (max-width: 768px) {
-      .header-content,
-      .footer-content {
-          padding: 0 20px;
-      }
-    }
+    
 
   /* Layout CSS */
 
@@ -130,6 +95,8 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    float: none;
+    clear: both;
   }
   
   .content {
@@ -150,29 +117,14 @@
   }
 
   /* Media query for different content screen sizes */
-  @media (max-width: 1200px) {
-    .content {
-        max-width: 1000px;
-    }
-  }
 
-  @media (max-width: 800px) {
+  @media (max-width: 412px) {
     .content {
-        max-width: 800px;
+        max-width: 400px;
     }
   }
-
-  @media (max-width: 600px) {
-    .content {
-        max-width: 600px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .content {
-        max-width: 400px; 
-    }
-  }
+  
+  
 
   /*Button and media querry*/
 
@@ -183,28 +135,14 @@
     width: 250px;
     height: auto;
     margin: 10px;
+    float: none;
+    clear: both;
  }
 
- @media (max-width: 1200px) {
-  .button {
-      margin-bottom: 30px;
-  }
-  }
 
-  @media (max-width: 800px) {
+  @media (max-width: 412px) {
     .button {
-      margin-bottom: 30px;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .button {
-      margin-bottom: 30px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .button {
+      margin-top: 80px;
       margin-bottom: 30px;
     }
   }
@@ -242,7 +180,6 @@
 
 /*Quiz Page Iframe and media querry*/
 #quiz-page {
-  background-color: aqua;
   width: auto;
   height: auto;
   display: none;
@@ -256,28 +193,9 @@
   display: block;
 }
 
-@media (max-width: 1200px) {
-  .iframe {
-      max-width: 8000px;
-      max-height: auto;
-  }
-}
 
-@media (max-width: 800px) {
-  .iframe {
-      max-width: 800px;
-      max-height: auto;
-  }
-}
 
-@media (max-width: 600px) {
-  .iframe {
-      max-width: 600px;
-      max-height: auto;
-  }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 412px) {
   .iframe {
       max-width: 400px;
       max-height: auto;
